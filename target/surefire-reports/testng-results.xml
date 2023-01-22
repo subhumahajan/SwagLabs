@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[ LOgin Page Verifcation Functionality success ]]>
+    </line>
+    <line>
+      <![CDATA[ CURRENT PAGE URL = https://www.saucedemo.com/inventory.html]]>
+    </line>
+    <line>
+      <![CDATA[ CURRENT PAGE TITLE = Swag Labs]]>
+    </line>
+    <line>
+      <![CDATA[ Valid Login Credential Success ]]>
+    </line>
+    <line>
+      <![CDATA[ CURRENT PAGE URL = https://www.saucedemo.com/inventory.html]]>
+    </line>
+    <line>
+      <![CDATA[ CURRENT PAGE TITLE = Swag Labs]]>
+    </line>
+    <line>
+      <![CDATA[ Item Name[0] : Sauce Labs Backpack : ItemPrice : $29.99]]>
+    </line>
+    <line>
+      <![CDATA[ Item Name[1] : Sauce Labs Bike Light : ItemPrice : $9.99]]>
+    </line>
+    <line>
+      <![CDATA[ Item Name[2] : Sauce Labs Bolt T-Shirt : ItemPrice : $15.99]]>
+    </line>
+    <line>
+      <![CDATA[ Item Name[3] : Sauce Labs Fleece Jacket : ItemPrice : $49.99]]>
+    </line>
+    <line>
+      <![CDATA[ Item Name[4] : Sauce Labs Onesie : ItemPrice : $7.99]]>
+    </line>
+    <line>
+      <![CDATA[ Item Name[5] : Test.allTheThings() T-Shirt (Red) : ItemPrice : $15.99]]>
+    </line>
+    <line>
+      <![CDATA[ Valid Dashboard Functionality Success]]>
+    </line>
+    <line>
+      <![CDATA[ ADD to card Item is = Sauce Labs Fleece Jacket]]>
+    </line>
+    <line>
+      <![CDATA[ Add To Card Inventery Field Success ]]>
+    </line>
+    <line>
+      <![CDATA[ ADD to card Item is = Sauce Labs Fleece Jacket]]>
+    </line>
+    <line>
+      <![CDATA[ CURRENT URL = https://www.saucedemo.com/cart.html]]>
+    </line>
+    <line>
+      <![CDATA[ CURRENT PAGE TITLE = Swag Labs]]>
+    </line>
+    <line>
+      <![CDATA[ ITEM NAME = Sauce Labs Fleece Jacket]]>
+    </line>
+    <line>
+      <![CDATA[ ITEM PRICE = $49.99]]>
+    </line>
+    <line>
+      <![CDATA[ Add Card Item Same As Selected Item Name ]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-01-22T13:45:46 IST" name="Swag Labs Suite" finished-at="2023-01-22T13:46:15 IST" duration-ms="29024">
+    <groups>
+    </groups>
+    <test started-at="2023-01-22T13:45:46 IST" name="Swag Labs Test" finished-at="2023-01-22T13:46:15 IST" duration-ms="29024">
+      <class name="com.SwagLabs.SwagLabs">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.SwagLabs.SwagLabs@20ce78ec]" started-at="2023-01-22T13:45:46 IST" name="SetUp" finished-at="2023-01-22T13:45:49 IST" duration-ms="3547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="VerifyLoginPage()[pri:1, instance:com.SwagLabs.SwagLabs@20ce78ec]" started-at="2023-01-22T13:45:49 IST" name="VerifyLoginPage" finished-at="2023-01-22T13:45:50 IST" duration-ms="164" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ LOgin Page Verifcation Functionality success ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyLoginPage -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.SwagLabs.SwagLabs@20ce78ec]" started-at="2023-01-22T13:45:50 IST" name="TearDown" finished-at="2023-01-22T13:45:53 IST" duration-ms="3369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.SwagLabs.SwagLabs@20ce78ec]" started-at="2023-01-22T13:45:53 IST" name="SetUp" finished-at="2023-01-22T13:45:56 IST" duration-ms="2640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="ValidLoginCredential()[pri:2, instance:com.SwagLabs.SwagLabs@20ce78ec]" started-at="2023-01-22T13:45:56 IST" name="ValidLoginCredential" finished-at="2023-01-22T13:45:56 IST" duration-ms="292" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ CURRENT PAGE URL = https://www.saucedemo.com/inventory.html]]>
+            </line>
+            <line>
+              <![CDATA[ CURRENT PAGE TITLE = Swag Labs]]>
+            </line>
+            <line>
+              <![CDATA[ Valid Login Credential Success ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ValidLoginCredential -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.SwagLabs.SwagLabs@20ce78ec]" started-at="2023-01-22T13:45:56 IST" name="TearDown" finished-at="2023-01-22T13:45:58 IST" duration-ms="2326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.SwagLabs.SwagLabs@20ce78ec]" started-at="2023-01-22T13:45:58 IST" name="SetUp" finished-at="2023-01-22T13:46:01 IST" duration-ms="2847" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="VerificationDashboard()[pri:3, instance:com.SwagLabs.SwagLabs@20ce78ec]" started-at="2023-01-22T13:46:01 IST" name="VerificationDashboard" finished-at="2023-01-22T13:46:02 IST" duration-ms="708" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ CURRENT PAGE URL = https://www.saucedemo.com/inventory.html]]>
+            </line>
+            <line>
+              <![CDATA[ CURRENT PAGE TITLE = Swag Labs]]>
+            </line>
+            <line>
+              <![CDATA[ Item Name[0] : Sauce Labs Backpack : ItemPrice : $29.99]]>
+            </line>
+            <line>
+              <![CDATA[ Item Name[1] : Sauce Labs Bike Light : ItemPrice : $9.99]]>
+            </line>
+            <line>
+              <![CDATA[ Item Name[2] : Sauce Labs Bolt T-Shirt : ItemPrice : $15.99]]>
+            </line>
+            <line>
+              <![CDATA[ Item Name[3] : Sauce Labs Fleece Jacket : ItemPrice : $49.99]]>
+            </line>
+            <line>
+              <![CDATA[ Item Name[4] : Sauce Labs Onesie : ItemPrice : $7.99]]>
+            </line>
+            <line>
+              <![CDATA[ Item Name[5] : Test.allTheThings() T-Shirt (Red) : ItemPrice : $15.99]]>
+            </line>
+            <line>
+              <![CDATA[ Valid Dashboard Functionality Success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerificationDashboard -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.SwagLabs.SwagLabs@20ce78ec]" started-at="2023-01-22T13:46:02 IST" name="TearDown" finished-at="2023-01-22T13:46:04 IST" duration-ms="2379" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.SwagLabs.SwagLabs@20ce78ec]" started-at="2023-01-22T13:46:04 IST" name="SetUp" finished-at="2023-01-22T13:46:07 IST" duration-ms="2461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="AddToCardItem()[pri:4, instance:com.SwagLabs.SwagLabs@20ce78ec]" started-at="2023-01-22T13:46:07 IST" name="AddToCardItem" finished-at="2023-01-22T13:46:07 IST" duration-ms="383" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ ADD to card Item is = Sauce Labs Fleece Jacket]]>
+            </line>
+            <line>
+              <![CDATA[ Add To Card Inventery Field Success ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AddToCardItem -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.SwagLabs.SwagLabs@20ce78ec]" started-at="2023-01-22T13:46:07 IST" name="TearDown" finished-at="2023-01-22T13:46:09 IST" duration-ms="2433" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.SwagLabs.SwagLabs@20ce78ec]" started-at="2023-01-22T13:46:09 IST" name="SetUp" finished-at="2023-01-22T13:46:12 IST" duration-ms="2572" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="VerifyAddToCardItem()[pri:5, instance:com.SwagLabs.SwagLabs@20ce78ec]" started-at="2023-01-22T13:46:12 IST" name="VerifyAddToCardItem" finished-at="2023-01-22T13:46:12 IST" duration-ms="487" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[ ADD to card Item is = Sauce Labs Fleece Jacket]]>
+            </line>
+            <line>
+              <![CDATA[ CURRENT URL = https://www.saucedemo.com/cart.html]]>
+            </line>
+            <line>
+              <![CDATA[ CURRENT PAGE TITLE = Swag Labs]]>
+            </line>
+            <line>
+              <![CDATA[ ITEM NAME = Sauce Labs Fleece Jacket]]>
+            </line>
+            <line>
+              <![CDATA[ ITEM PRICE = $49.99]]>
+            </line>
+            <line>
+              <![CDATA[ Add Card Item Same As Selected Item Name ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- VerifyAddToCardItem -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.SwagLabs.SwagLabs@20ce78ec]" started-at="2023-01-22T13:46:12 IST" name="TearDown" finished-at="2023-01-22T13:46:15 IST" duration-ms="2369" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.SwagLabs.SwagLabs -->
+    </test> <!-- Swag Labs Test -->
+  </suite> <!-- Swag Labs Suite -->
+</testng-results>

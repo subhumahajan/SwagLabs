@@ -1,0 +1,156 @@
+<html>
+<head>
+<title>TestNG:  Swag Labs Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Swag Labs Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>5/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Jan 22 13:45:46 IST 2023</td>
+</tr>
+<tr><td>Total time:</td><td>29 seconds (29024 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.SwagLabs.SwagLabs.ValidLoginCredential()'><b>ValidLoginCredential</b><br>Test class: com.SwagLabs.SwagLabs<br/>
+<a href="#Output-1921143808" onClick='toggleBox("Output-1921143808", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1921143808" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1921143808">
+ CURRENT PAGE URL = https://www.saucedemo.com/inventory.html<br/>
+ CURRENT PAGE TITLE = Swag Labs<br/>
+ Valid Login Credential Success <br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.SwagLabs.SwagLabs@20ce78ec</td></tr>
+<tr>
+<td title='com.SwagLabs.SwagLabs.AddToCardItem()'><b>AddToCardItem</b><br>Test class: com.SwagLabs.SwagLabs<br/>
+<a href="#Output-2060569250" onClick='toggleBox("Output-2060569250", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2060569250" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2060569250">
+ ADD to card Item is = Sauce Labs Fleece Jacket<br/>
+ Add To Card Inventery Field Success <br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.SwagLabs.SwagLabs@20ce78ec</td></tr>
+<tr>
+<td title='com.SwagLabs.SwagLabs.VerificationDashboard()'><b>VerificationDashboard</b><br>Test class: com.SwagLabs.SwagLabs<br/>
+<a href="#Output-1648278215" onClick='toggleBox("Output-1648278215", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1648278215" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1648278215">
+ CURRENT PAGE URL = https://www.saucedemo.com/inventory.html<br/>
+ CURRENT PAGE TITLE = Swag Labs<br/>
+ Item Name[0] : Sauce Labs Backpack : ItemPrice : $29.99<br/>
+ Item Name[1] : Sauce Labs Bike Light : ItemPrice : $9.99<br/>
+ Item Name[2] : Sauce Labs Bolt T-Shirt : ItemPrice : $15.99<br/>
+ Item Name[3] : Sauce Labs Fleece Jacket : ItemPrice : $49.99<br/>
+ Item Name[4] : Sauce Labs Onesie : ItemPrice : $7.99<br/>
+ Item Name[5] : Test.allTheThings() T-Shirt (Red) : ItemPrice : $15.99<br/>
+ Valid Dashboard Functionality Success<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.SwagLabs.SwagLabs@20ce78ec</td></tr>
+<tr>
+<td title='com.SwagLabs.SwagLabs.VerifyAddToCardItem()'><b>VerifyAddToCardItem</b><br>Test class: com.SwagLabs.SwagLabs<br/>
+<a href="#Output-45320991" onClick='toggleBox("Output-45320991", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-45320991" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-45320991">
+ ADD to card Item is = Sauce Labs Fleece Jacket<br/>
+ CURRENT URL = https://www.saucedemo.com/cart.html<br/>
+ CURRENT PAGE TITLE = Swag Labs<br/>
+ ITEM NAME = Sauce Labs Fleece Jacket<br/>
+ ITEM PRICE = $49.99<br/>
+ Add Card Item Same As Selected Item Name <br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.SwagLabs.SwagLabs@20ce78ec</td></tr>
+<tr>
+<td title='com.SwagLabs.SwagLabs.VerifyLoginPage()'><b>VerifyLoginPage</b><br>Test class: com.SwagLabs.SwagLabs<br/>
+<a href="#Output-149818403" onClick='toggleBox("Output-149818403", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-149818403" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-149818403">
+ LOgin Page Verifcation Functionality success <br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.SwagLabs.SwagLabs@20ce78ec</td></tr>
+</table><p>
+</body>
+</html>
